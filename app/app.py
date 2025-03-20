@@ -14,7 +14,7 @@ def main():
         result = evaluate_credit_eligibility(income, credit_score)
         print(result)
     except ValueError:
-        print("Invalid input. Please enter numeric values.")
+        print("Invalid input. Please enter numeric values for income and credit score.")
 
 if __name__ == "__main__":
     main()
